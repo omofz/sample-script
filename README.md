@@ -1,2 +1,2 @@
 # sample-script
-sample python script for
+sample python script for automating
