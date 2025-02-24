@@ -47,8 +47,8 @@ def send_email(sender_email, recipient_email, subject, message):
     server.quit()
 
 # Example usage
-sender_email = 'varda.quraishi@globewyze.com'
-recipient_email = 'vardaquraishi@gmail.com'
+sender_email = os.environ.get("SENDER_EMAIL)
+recipient_email = os.environ.get("RECIPIENT_EMAIL")
 subject = 'Hello from Python Email Script'
 message = 'This is an automated email sent using Python.'
 
